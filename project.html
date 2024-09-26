@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+
+<style>
+    .button {
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+    
+    .button1 {background-color: #04AA6D;} /* Green */
+    .button2 {background-color: #008CBA;} /* Blue */
+    </style>
+    
+
+
+<head>
+    <center>
+        <h1 style="border-style:dashed">Totally Real ATM</h1>
+    </center>
+</head>
+<body>
+<br>
+
+    <div>
+        <label for="amount">Charge:</label>
+        <input type="text" id="amount" name="amount" placeholder=" $USD amount" required>
+    </div>
+    <br>
+    <div>
+        <label for="type">last 10 digits of credit/debit card:</label>
+        <input type="" id="amount" name="type" required>
+    </div>
+    <br>
+    <div>
+        <label for="type">ignorant:</label>
+        <input type="checkbox" id="ignorant" name="ignorant" required>
+    </div>
+ 
+
+    <p>Please choose deposit or withdrawl:</p>
+      <input type="radio" id="dep" name="or" value="Deposit">
+      <label for="dep">Deposit</label><br>
+      <input type="radio" id="wit" name="or" value="withdrawl">
+      <label for="wit">Withdraw</label><br>
+
+    <br>
+    <form action="/action_page.php">
+        <label for="banks">Choose a Bank:</label>
+        <br>
+        <select name="banks" id="banks">
+          <option value="volvo">TD</option>
+          <option value="saab">RBC</option>
+          <option value="volvo">Scotia</option>
+          <option value="saab">Saudi</option>
+    
+
+
+
+    <br>
+
+    <div>
+        <input type="submit">
+    </div>
+
+</body>
+</html>
